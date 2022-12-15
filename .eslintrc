@@ -7,7 +7,23 @@
   },
   "rules": {
     "require-jsdoc": "off",
-    "linebreak-style": ["error", "windows"]
+    "linebreak-style": [
+      "error",
+      "windows"
+    ],
+    "semi": [
+      "error",
+      "never"
+    ],
+    "operator-linebreak": "off",
+    "no-extra-semi": "error",
+    "arrow-parens": "off",
+    "no-trailing-spaces": "off",
+    "no-debugger": "off",
+    "comma-dangle": "off"
   },
-  "extends": ["eslint:recommended", "google"]
+  "extends": [
+    "eslint:recommended",
+    "google"
+  ]
 }
