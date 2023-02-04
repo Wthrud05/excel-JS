@@ -25,7 +25,6 @@ export class DOMListener {
   removeDOMListeners() {
     this.listeners.forEach(listener => {
       const method = getMethodName(listener)
-      console.log('GG ', method)
       this.$root.off(listener, this[method])
     })
   }
