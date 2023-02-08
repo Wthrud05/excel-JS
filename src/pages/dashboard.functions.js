@@ -38,7 +38,7 @@ export function createRecordsTable() {
   return `
     <div class="db__list-header">
       <span>Название</span>
-      <span>Дата создания</span>
+      <span>Дата открытия</span>
     </div>
 
     <ul class="db__list">
