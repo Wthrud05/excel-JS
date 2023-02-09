@@ -3,7 +3,8 @@
   "env": {
     "browser": true,
     "es2021": true,
-    "node": true
+    "node": true,
+    "jest/globals": true
   },
   "rules": {
     "require-jsdoc": "off",
@@ -22,6 +23,9 @@
     "no-debugger": "off",
     "comma-dangle": "off"
   },
+  "plugins": [
+    "jest"
+  ],
   "extends": [
     "eslint:recommended",
     "google"
